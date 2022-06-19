@@ -2,7 +2,7 @@ require('dotenv').config();
 
 const express = require('express');
 const multer = require('multer');
-const {s3upload} = require("./s3cret");
+const {s3upload} = require("./s3");
 const app = express();
 
 app.use(express.static('public'))
